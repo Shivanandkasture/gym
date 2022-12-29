@@ -18,7 +18,6 @@ const Program = () => {
                 <h1>GYM Fitness Training</h1>
                 <h3>GYM BEGINNER</h3>
                 <Link to='#'><button>Click Here</button></Link>
-
             </div>
 
             <div className='box'>

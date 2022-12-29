@@ -5,21 +5,14 @@ import { FaBars } from "react-icons/fa"
 import { ImCross } from "react-icons/im"
 import logo from '../images/logo.jpeg'
 
-
-
 const NavBar = () => {
+  
   const [Mobile, setMobile] = useState(false)
 
   return (
-    <>
       <div>
         <nav className='navbar'>
           <Link to='/'> <img src={logo} className='logo' alt="logo" /></Link>
-
-          {/*
-        if large screen ma xa bhane Mobile add huxa
-        if mobile screen ma xa bhane nav-links-mobile add huxa
-        */}
           <ul className={Mobile ? "nav-links-mobile" : "nav-links"} onClick={() => setMobile(false)}>
             <NavLink to='/home' className='home'>
               <li>Home</li>
@@ -33,20 +26,12 @@ const NavBar = () => {
             <Link to='/program' className='program'>
               <li>Program</li>
             </Link>
-
           </ul>
-          {/* 
-        whenever we click on button = setMobile(!Mobile) ==  is mobile oppsite to setMobile 
-        */}
           <button className='mobile-menu-icon' onClick={() => setMobile(!Mobile)}>
             {Mobile ? <ImCross /> : <FaBars />}
           </button>
-
         </nav>
       </div>
-
-
-    </>
   )
 }
 export default NavBar

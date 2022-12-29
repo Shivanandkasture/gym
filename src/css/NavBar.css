@@ -75,18 +75,23 @@ button {
   .nav-links-mobile {
     position: absolute;
     display: block;
+    color: rgb(73, 118, 157);
     list-style: none;
-    box-shadow: rgba(50, 50, 93, 0.23) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-    left: 0;
-    top: 15%;
-    transition: all 0.5s ease-in-out;
-    width: 100%;
-    background-color: white;
+    box-shadow: rgba(132, 132, 209, 0.23) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    right: 20px;
+    top: 5%;
+    width: 200px;
+    border-radius: 10px;
+    justify-content: center;
+    z-index: 1;
+    background-color: rgb(72, 120, 120);
   }
   ul li {
     padding: 32px;
+    font-size: larger;
+    font-weight: 900;
     width: 100%;
-    transition: all 0.5s ease-in-out;
+    color: rgb(255, 255, 255);
     text-align: center;
   }
   .mobile-menu-icon {
@@ -97,6 +102,4 @@ button {
   .hero h1 {
     font-size: 50px;
   }
-
- 
 }
