@@ -5,6 +5,12 @@
     text-transform: capitalize;
     transition: all 0.3 linear;
 }
+.main2{
+    margin-top:-80px ;
+   border-top: 5px solid yellow;
+   
+   
+}
 .container{
     
     width:  100%;
@@ -16,8 +22,7 @@
     align-items: center;
     background-color: #74EbD5;
     background-image: linear-gradient(90deg,#74EbD5 0%,#9face6 100%);
-    margin-top:0px ;
-    margin-bottom: 70px;
+   
 }
 .box{
     width: 300px;

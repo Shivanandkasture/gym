@@ -10,15 +10,15 @@ function App() {
   return (
 
     <BrowserRouter>
-    <NavBar/>
-    
-     
-      <Header/>
-      <About/>
-      <Pricing/>
-      <Program/>
-     
-      <Footer/>
+      <NavBar />
+
+
+      <Header />
+      <About />
+
+      <Program />
+      <Pricing />
+      <Footer />
     </BrowserRouter>
 
   );

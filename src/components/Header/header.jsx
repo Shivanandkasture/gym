@@ -9,7 +9,7 @@ const Header = () => {
             <div className="text"><h1>Make your a body builder</h1></div>
             <p className="p">We Provide Our best opporturity and qualified trainers</p><br />
             <p className="p2">for best workout yourself as you want</p><br /><br />
-            <div className="button"><button><NavLink to='/about'>view details</NavLink></button></div>
+            <div className="button"><button><NavLink to='/pricing'>view details</NavLink></button></div>
             <div className="button2"><button><Link to='#'>Sign in</Link></button></div>
             </>
     )
