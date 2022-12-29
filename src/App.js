@@ -5,23 +5,18 @@ import About from './components/Header/About';
 import Pricing from './components/Header/Pricing';
 import Program from './components/Header/Program';
 import Footer from "../src/components/footer/Footer"
+import Header from './components/Header/header';
 function App() {
   return (
 
     <BrowserRouter>
     <NavBar/>
     
-      <Routes>
-
-        <Route exact path='/home' element={<Home />}> </Route>
-        
-        <Route exact path='/about' element={<About />}> </Route>
-        
-        <Route exact path='/pricing' element={<Pricing />}> </Route>
-        
-        <Route exact path='/program' element={<Program />}> </Route>
-      </Routes>
-      <About />
+     
+      <Header/>
+      <About/>
+      <Pricing/>
+      <Program/>
      
       <Footer/>
     </BrowserRouter>

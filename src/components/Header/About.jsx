@@ -4,7 +4,7 @@ import '../../css/aboutcss.css'
 const About = ()=>{
     return(
        <>
-        <div className='about'></div>
+   
         <article>
            <h1 >WE ARE UFC GYM</h1>
            <p>We are the original. The world leader. The trail-blazer of MMA-inspired fitness. Rooted in authenticity,
