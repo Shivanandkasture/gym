@@ -6,8 +6,6 @@
   font-family: "Poppins", sans-serif;
 }
 
-
-
 a {
   text-decoration: none;
   
@@ -21,8 +19,8 @@ li {
   justify-content: space-around;
   align-items: center;
   height: 10vh;
-  
-  box-shadow: rgba(50, 50, 93, 0.23) 0px 30px 30px -20px;
+  background-color: rgb(216, 216, 234);
+  box-shadow: rgba(40, 40, 177, 0.23) 0px 30px 30px -20px;
  
 }
 .logo {
@@ -33,18 +31,18 @@ li {
   display: flex;
   justify-content: flex-end;
   width: 75%;
-  
 }
 
 .nav-links li {
   color: black;
   font-size: 20px;
+  font-weight: 700;
   padding: 10px 20px;
   margin: 0 10px;
   cursor: pointer;
   text-transform: capitalize;
-  
 }
+
 .hero {
   text-align: center;
   margin-top: 15%;
@@ -66,7 +64,6 @@ button {
  
   .logo {
     display: flex;
-    position: absolute;
     height: 45px;
     width: 45px;
     
